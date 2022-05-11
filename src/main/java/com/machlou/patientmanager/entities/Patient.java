@@ -19,6 +19,8 @@ public class Patient implements Serializable {
     @Column(name = "last_name")
     private String lastName;
     private String email;
+    private boolean sick;
+    private int score;
     @Column(name = "birth_date")
     private Date birthDate;
 }
